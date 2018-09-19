@@ -20,12 +20,12 @@
 
 class Dog
 
-  def name=
+  def name=(full_name)
     @name = full_name
   end
 
   def name
-    @name = full_name
+    @name
   end
 
 end
